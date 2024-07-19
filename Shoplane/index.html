@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoplane</title>
+    <link rel="icon" type="image/x-icon" href="img/android-chrome-512x512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="hreo.css">
+
+</head>
+<body>
+
+
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">SHOPLANE</a>
+
+                <!-- Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav-itemes -->
+                <div class="collapse navbar-collapse nav-items" id="navbarScroll">
+                <ul class="acc navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">MEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">CHILDREN</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li> -->
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">ACCESORRIES</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="search-box" type="search" placeholder="Search" aria-label="Search"></a> 
+                    <!-- <button class="btn" type="submit">S</button> -->
+                    <button id="login0"><a href="signin.html" target="_blank" style="text-decoration: none;">Login</a></button>
+                    
+                    <button class="btn login" type="submit">SignUp</button>
+                    <a style="color: black" ="https://colab.research.google.com/drive/1doDdqAMikI5pYxvNZni0yDhhJk2eNOPs"><svg xmlns="http://www.w3.org/2000/svg" width="90" height="30" fill="currentColor" class="carticon bi bi-cart " viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg></a>
+                    <!-- <span class="cartitems top-1 start-100 translate-middle badge rounded-pill bg-danger"> -->
+                        <!-- 99+ -->
+                        <!--<span class="visually-hidden">unread messages</span>-->
+                    <!-- </span> -->
+                </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- carousel -->
+
+    <div class="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <!-- <ol class="carousel-indicators cardcount">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol> -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/img1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/img2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/img3.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/img4.png" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <!-- <span class="sr-only">Previous</span> -->
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <!-- <span class="sr-only">Next</span> -->
+            </a>
+        </div>
+    </div>
+
+    <br>
+
+
+    <!-- Cards Section -->
+
+    <!-- Clothing Section -->
+    <h3 style="text-align: center;">CLOTHING</h3>
+    <br>
+
+    <div class="cards row ">
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2060340/2017/9/14/11505387708574-Puma-Men-Black-Solid-Sporty-Jacket-371505387708496-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Black Sweat Sporty Jacket</h5>
+                <!-- <h6>Puma</h6> -->
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 2499</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Men Navy Blue Solid Sweatshirt</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 1499</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3" >
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Black Parkview Lifestyle Shoes</h5>
+                <p class="card-text"></p>
+            </div> 
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 3799</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Women Black Leather Jacket</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 5999</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card card5 col-lg-2 col-md-3">
+            <img style=" padding-bottom:16px" src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bmlrZSUyMHNob2VzfGVufDB8fDB8fA%3D%3D&w=1000&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nike shoe</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 9998</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5649908/2018/5/10/6bfe80cd-2f55-42bc-aa7f-e0d6c9e2ac531525936414747-SASSAFRAS-Women-Blue-Solid-Shirt-Dress-3831525936414532-1.jpg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Women Blue Solid Shirt Dress</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 2900</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <br>
+
+
+        <!-- Accessories Section -->
+        <h3 style="text-align: center;">Accessories</h3>
+
+
+        <div class="card col-lg-2 col-md-3" style="margin-left: 0;">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803247/2019/5/27/624dac60-4c42-4902-bba1-30a51cc7f43c1558948536543-Apple-Unisex-Smart-Watches-1441558948536225-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Unisex Silver-Toned Series 3</h5>
+                <!-- <h6>Puma</h6> -->
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 31999</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2019/2/23/dc05b5e5-aa82-493e-bf0b-0c309baf21021550920383101-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Unisex Black &amp; Green Reflex 2.0</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 1999</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3" >
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/10122083/2019/6/24/e533a691-3908-41b0-8307-1928a37d4ec41561362162650-Samsung-Galaxy-Fit-4801561362161527-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Black Galaxy Fit Fitness Band</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 3799</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/8593217/2019/4/9/de2c21f3-6731-4c29-9369-692a486a1b8c1554802772926-Samsung-Gear-IconX-Black-Cord-free-Fitness-Earbuds-256155480-1.jpg" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Gear IconX Black Fitness Earbuds</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price price" >Rs. 5999</li>
+                <li class="list-group-item" ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card card5 col-lg-2 col-md-3" >
+            <img style=" padding-bottom:16px; height: 15rem;" src="https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/9803279/2019/5/27/6661d579-12ae-456b-b8f2-e78e5256a99c1558948436173-Apple-AirPods-with-Charging-Case-2nd-Gen-White-3831558948435-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">White 2nd Gen AirPods</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 9998</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+
+            </ul>
+        </div>
+        <div class="card col-lg-2 col-md-3">
+            <img style="height: 15.3rem" src="data:image/jpeg;base64,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" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Oneplus Bullets Z2 Bluetooth Wireless</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush priceCenter">
+                <li class="list-group-item price">Rs. 1499</li>
+                <li class="list-group-item " ><button class="btn newbtn">Add to cart</button></li>
+                <!-- <li class="list-group-item1 remove" ><button class="btn"> Remove</button></li> -->
+            </ul>
+        </div>
+        
+    </div>
+
+    <br>
+
+
+
+    <!-- AddToCart Section -->
+
+    <h3 style="text-align: center; font-weight: 700;">Your Orders</h3>
+
+    <div class="addtocart">
+        
+    </div>
+    <br>
+    <div class="paymentBtn">
+        <h4 id="totalValue" >Total order value : 0</h4>
+        <button class="btn pay" >Place Order</button>
+    </div>
+ 
+
+
+
+
+
+    <!-- <br><br><br><br> -->
+    
+
+    <br>
+    <!-- footer section -->
+    
+    <div class="footer">
+        <div class="foot-left">
+            <div class="fl1">
+                <img src="img/android-chrome-512x512.png"><span><h4>Shoplane</h4></span>
+            </div>
+            <div class="fl2">
+                <p>Bulding 101,
+                    <br>
+                    central avenue,
+                    <br>    
+                    LA-902722,
+                    Unites States
+                </p>
+            </div>
+        </div>
+        <div class="foot-right">
+            <div class="foot-cen">
+                <h5>Online store</h5>
+                <span><a href="#">Men Clothing</a></span>
+                <span><a href="#">Women Clothing</a></span>
+                <span><a href="#">Men Accessories</a></span>
+                <span><a href="#">woMen Accessories</a></span>
+            </div>
+            <div class="foot-cen">
+                <h5>Helpful Links</h5>
+                <span><a href="#">Home</a></span>
+                <span><a href="#">About</a></span>
+                <span><a href="#">Contact</a></span>
+            </div>
+            <div class="foot-cen">
+                <h5>Partners</h5>
+                <span><a href="#">Zara</a></span>
+                <span><a href="#">Puma</a></span>
+                <span><a href="#">Nike</a></span>
+                <span><a href="#">H&M</a></span>
+                <span><a href="#">Pantaloons</a></span>
+                <span><a href="#">Levi's</a></span>
+
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="addToCart.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval:2500
+        })
+    </script>
+
+  
+
+</body>
+<footer><h6><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM199.4 312.6c-31.2-31.2-31.2-81.9 0-113.1s81.9-31.2 113.1 0c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9c-50-50-131-50-181 0s-50 131 0 181s131 50 181 0c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0c-31.2 31.2-81.9 31.2-113.1 0z"/></svg>Tushar Gndaliya | 2022-23</h6></footer>
+
+</html>

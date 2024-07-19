@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Shoplane</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .page{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            background-color:lightgray;
+        }
+        .main{
+            background-color: white;
+            width: 300px;
+            height: 350px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        h1{
+            text-align: center;
+            margin-top:25px;
+        }
+
+        .main span{
+            margin: 30px auto;
+        }
+
+        [type=text]{
+            padding:10px;
+        }
+        [type=password]{
+            padding:10px;
+        }
+
+        [type=checkbox]{
+            margin:0 10px;
+        }
+
+        .main .btn1{
+            height: 43px;
+            width: 100px;
+            margin-left: 25px;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0 auto;
+            border: 1px solid black;         
+            margin-top: 20px;
+        }
+
+        .main .btn1:hover{
+            background-color: black;
+            color: #eee;
+            cursor: pointer;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+
+        .check{
+            font-size: 15px;
+            margin: 0 auto;
+        }
+
+        span{
+            margin: 0 auto;
+        }
+
+        a{
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="main">
+            <h1>Log In</h1>
+            <span require style="margin-bottom: 10px;"><input type="text" name="Name" placeholder="Enter your name"></span>
+            <span requitre style="margin-top: 0px; margin-bottom: 10px; " ><input type="password" name="Password" placeholder="Enter your password"></span>
+            <span style="margin-top: 0; margin-bottom: 5px; margin-left: 66px;"><input type="checkbox" name="check" id="check">Remembr me</span>
+            <a href="index.html"><button class="btn1">Log in</button></a>
+        </div>
+    </div>
+</body>
+</html>

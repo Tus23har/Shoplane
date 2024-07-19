@@ -1,0 +1,297 @@
+/* .carousel-item {
+    transition: transform 1s ease-in-out;
+}
+  
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 1s 2.6s;
+}
+   */
+
+/* .cartitems{
+    margin: auto;
+    padding-top: 13px !important;
+    font-size: 3px !important;
+} */
+
+/* .cardcount{
+    font-weight: 900 !important;
+} */
+
+/* .cards{
+    width: 100vw;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 100vw;
+    margin: auto;
+    padding: 0;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.acc{
+    margin-left: auto;
+}
+
+body {
+    background: #eee;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d-flex svg{
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+.nav-items a{
+    margin: 0 17px;
+}
+
+.card{
+    width: 13rem;
+    height: 27rem;
+}
+
+.card img{
+    height: 15rem;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#box{
+    background-color: white;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 2px rgb(219, 219, 219);
+}
+
+top {
+    width: 60%;
+    height: 16rem;
+}
+
+.list-group-item{
+    border-radius: 2px;
+}
+
+.list-group-item button,.list-group-item1 button{
+    width: 8rem;
+}
+
+.nav-items{
+    width:auto;
+}
+/* .card5{
+    height: 16rem;
+} */
+
+.cards{
+    margin: 0;
+    gap: 18px;
+}
+
+
+
+.btn{
+    border: 1px solid black;
+    margin: 0px 1.5px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #eee;
+}
+
+.btn a{
+    color: black;
+}
+
+.btn a:hover{
+    color: #eee;
+}
+
+#login0{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 6rem;
+    border-radius: 5px;
+    color: black;
+}
+
+#login0 a{
+    color: black;
+}
+
+#login0 a:hover{
+    color: #eee;
+    /* background-color: black; */
+}
+#login0:hover{
+    color: #eee;
+    background-color: black;
+}
+
+.d-flex a{
+    margin: auto 2px;
+}
+
+.search-box{
+    box-sizing: border-box;
+    margin-right: 1%;
+}
+
+[type=search] {
+    outline-offset:0px;
+    outline-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    /* -webkit-appearance: textfield; */
+}
+
+.login{
+    background-color: black;
+    color: #eee;
+}
+
+.priceCenter{
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 260px;
+}
+
+.foot-left{
+    display: flex;
+    height: 16rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+} 
+
+.foot-left .fl1 img{
+    height:4rem;
+    margin: 0 13px;
+}
+
+.foot-left h4{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.foot-left .fl1{
+    display:flex;
+    align-items: center;
+}
+
+.footer .foot-cen{
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 175px;
+    margin: 0 20px;
+}
+
+.foot-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.foot-right h5{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.foot-right span a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    /* height: 10px; */
+    
+}
+
+footer h6{
+    font-size: 13px;
+}
+
+footer svg{
+    margin: 0 2px;
+    height: 12.5px;
+    margin-bottom: 1px;
+}
+
+
+/* addToCartsection */
+
+.addtocart{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.addtocart .mainDiv .btn{
+    width: 8rem;
+}
+
+.paymentBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+
+.paymentBtn h4{
+    margin-bottom: 0;
+    margin: 0 50px;
+}
